@@ -131,5 +131,5 @@ if [[ -z "$skip_global_compinit" ]]; then
   compinit
 fi
 
-umask 0027
+#umask 0027 # Causing more problems than it solves
 /usr/bin/neofetch
