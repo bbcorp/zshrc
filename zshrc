@@ -132,4 +132,7 @@ if [[ -z "$skip_global_compinit" ]]; then
 fi
 
 #umask 0027 # Causing more problems than it solves
+
 /usr/bin/neofetch
+
+zstyle ':completion:*' menu select
